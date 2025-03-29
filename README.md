@@ -7,12 +7,8 @@ Tech Stack: HTML, CSS
 
 Features:
 
-Navigation menu with quick access to key sections
-
-Embedded chatbot for inquiries
-
-Virtual campus tour integration
-
-Links to university programs, scholarships, and job openings
-
-Responsive design for an optimal user experience
+1. Navigation menu with quick access to key sections
+2. Embedded chatbot for inquiries
+3. Virtual campus tour integration
+4. Links to university programs, scholarships, and job openings
+5. Responsive design for an optimal user experience
