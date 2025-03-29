@@ -1,0 +1,325 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    line-height: 1.6;
+    color: #333;
+    background: #f4f4f9;
+}
+
+/* Header Styling */
+header {
+    background: #88b2e8;
+    color: #0a0a0a;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header .logo img {
+    width: 200px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #020202;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background 0.3s ease-in-out;
+    align-items: center;
+}
+
+header ul li a:hover {
+    background: #00509e;
+    border-radius: 5px;
+}
+
+/* Main Section Styling */
+main section {
+    padding: 40px 10%;
+    background: #fff;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+main section img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+main section h1 {
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+main section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.applynow_btn {
+    background: #da2032;
+    color: #fff;
+    padding: 6px 12px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+
+
+/* Widget Links Styling */
+.widget_links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.widget_links li {
+    display: inline-block;
+}
+
+.widget_links a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #003366;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #f4f4f9;
+    transition: background 0.3s ease, color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.widget_links a:hover {
+    background: #00509e;
+    color: #fff;
+}
+/* Virtual Campus Tour Styling */
+.virtual-tour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 10px;
+    background: linear-gradient(135deg, #5e7ac7, #3b5998);
+    border-radius: 12px;
+    color: #fff;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.virtual-tour .tour-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.virtual-tour .tour-button img {
+    width: 80px;
+    height: 80px;
+}
+
+.virtual-tour .tour-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.virtual-tour h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #ffd700;
+    letter-spacing: 1.5px;
+}
+
+.virtual-tour p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    max-width: 600px;
+    color: #f4f4f9;
+}
+
+@media (max-width: 768px) {
+    .virtual-tour h1 {
+        font-size: 1.5rem;
+    }
+
+    .virtual-tour p {
+        font-size: 0.9rem;
+    }
+
+    .virtual-tour .tour-button img {
+        width: 60px;
+        height: 60px;
+    }
+}
+/* Schedule Your Visit Button Styling (Medium Size) */
+.visit-campus {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.visit-button {
+    display: inline-block;
+    padding: 12px 25px; /* Medium padding */
+    font-size: 1.1rem; /* Medium font size */
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    border: none;
+    border-radius: 6px; /* Slightly smaller radius */
+    text-decoration: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.visit-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(135deg, #feb47b, #ff7e5f);
+}
+
+@media (max-width: 768px) {
+    .visit-button {
+        font-size: 1rem;
+        padding: 10px 20px; /* Slightly reduced padding for small screens */
+    }
+}
+
+
+
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background: #003366;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+/* Academic Collaborations Section */
+.academic-collaborations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.collaboration {
+    position: relative;
+    width: 30%;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.collaboration img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.collaboration:hover {
+    transform: scale(1.05);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay h2 {
+    margin: 0;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header ul {
+        flex-direction: column;
+    }
+
+    main section {
+        padding: 20px 5%;
+    }
+
+    .widget_links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .widget_links a {
+        width: 100%;
+        text-align: center;
+    }
+}
+/* Chatbot Container */
+#chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+
